@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewelry Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#pictures">Pictures</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#video">Video</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <h1>Welcome to Our Jewelry Store</h1>
+        <p>Discover stunning jewelry pieces that reflect your unique style.</p>
+    </header>
+
+    <section id="pictures">
+        <h2>Our Beautiful Jewelry</h2>
+        <div class="gallery">
+            <img src="image1.jpg" alt="Jewelry Image 1">
+            <img src="image2.jpg" alt="Jewelry Image 2">
+            <img src="image3.jpg" alt="Jewelry Image 3">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="video">
+        <h2>Watch Our Video</h2>
+        <div class="video-wrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/your_video_id" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Jewelry Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
